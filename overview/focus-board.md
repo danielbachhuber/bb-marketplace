@@ -14,10 +14,11 @@ More about our features in the [README](https://github.com/cristoslc/bb-plugin-f
 
 ## CLI
 
-One subcommand, `bb focus-board`, manages the plugin's own state: done status, marks, snoozes, links, auto-titling, sweeps, and config. All commands accept `--json`, and the sweep never archives without `--confirm`.
+One subcommand, `bb focus-board`, manages the plugin's own state: done status, marks, snoozes, links, feature groups (create/rename/delete/add/remove/move plus the read-only list), auto-titling, and sweeps. All commands accept `--json`, and the sweep never archives without `--confirm`.
 
 ## Requirements
 
 - Node 18 or newer
 - bb 0.43 or newer with plugin SDK 0.5.9 or newer
 - Optional: the official GitHub plugin, for ticket status dots. Without its local cache, chips render without dots and everything else works.
+
